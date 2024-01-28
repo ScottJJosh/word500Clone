@@ -1,0 +1,123 @@
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .letter-box {
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .letter-box-green {
+    background-color: greenyellow;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .letter-box-yellow {
+    background-color: yellow;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .letter-box-red {
+    background-color: red;
+    border: 2px solid gray;
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .letter-box-spacer {
+    border-radius: 3px;
+    margin: 2px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  .filled-box {
+    border: 2px solid black;
+  }
+  
+  .letter-row {
+    display: flex;
+  }
+
+#keyboard-container {
+    height: 200px;
+  }
+  
+  .keyboard-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto 8px;
+    touch-action: manipulation;
+  }
+  
+  .keyboard-row button {
+    font-family: inherit;
+    font-weight: bold;
+    border: 0;
+    padding: 0;
+    height: 58px;
+    cursor: pointer;
+    background-color: rgb(129, 131, 132);
+    color: rgb(215, 218, 220);
+    flex-grow: 1;
+    text-transform: uppercase;
+    margin-right: 6px;
+    border-radius: 4px;
+    user-select: none;
+  }
+  
+  .keyboard-row button.wide-button {
+    flex-grow: 1.5;
+  }
+  
+.spacer-half {
+    flex-grow: 0.5;
+  }
+.currGuess {
+    font-size: large;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid red;
+}
